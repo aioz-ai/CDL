@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python3 test.py driving_udacity --network_name gaia --architecture ring --model CDL_FADNet --n_rounds 1200 --bz_train 32 --bz_test 32 --device cuda --log_freq 100 --local_steps 1 --lr 0.001 --decay sqrt --beta_supp 0.5 --test --save_logg_path pretrained_models/DRIVING-UDACITY_GAIA/CDL_FADNet
