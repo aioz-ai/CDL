@@ -1,5 +1,4 @@
 import os
-from torch.multiprocessing import Process
 import torch
 
 from utils.args import parse_args
