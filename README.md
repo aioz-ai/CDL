@@ -1,11 +1,11 @@
-# Reducing Non-IID Effects in Federated Autonomous Driving with Contrastive Divergence Loss
+# Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss
 
 *Federated learning has been widely applied in autonomous driving since it enables training a learning model among vehicles without sharing users' data. However, data from autonomous vehicles usually suffer from the non-independent-and-identically-distributed (non-IID) problem, which may cause negative effects on the convergence of the learning process. In this paper, we propose a new contrastive divergence loss to address the non-IID problem in autonomous driving by reducing the impact of divergence factors from transmitted models during the local learning process of each silo. We also analyze the effects of contrastive divergence in various autonomous driving scenarios, under multiple network infrastructures, and with different centralized/distributed learning schemes. Our intensive experiments on three datasets demonstrate that our proposed contrastive divergence loss significantly improves the performance over current state-of-the-art approaches.*
 
 ![Fig-1](misc/CDL_FADNet.png)
 *<center>**Figure 1**: The Siamese setup when our CDL is applied for training federated autonomous driving mode.</center>*
 
-This repository is the implementation of **Reducing Non-IID Effects in Federated Autonomous Driving with Contrastive Divergence Loss**. We benchmark our method on three public datasets: Udacity+ (A non-IID version of [Udacity](https://www.udacity.com/self-driving-car)), Carla, and Gazebo.
+This repository is the implementation of **Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss**. We benchmark our method on three public datasets: Udacity+ (A non-IID version of [Udacity](https://www.udacity.com/self-driving-car)), Carla, and Gazebo.
 
 For the detail, please refer to [link](https://arxiv.org/pdf/2303.06305.pdf).
 
