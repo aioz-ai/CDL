@@ -1,4 +1,4 @@
-# Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss
+# Reducing Non-IID Effects in Federated Autonomous Driving with Contrastive Divergence Loss
 
 *Federated learning has been widely applied in autonomous driving since it enables training a learning model among vehicles without sharing users' data. However, data from autonomous vehicles usually suffer from the non-independent-and-identically-distributed (non-IID) problem, which may cause negative effects on the convergence of the learning process. In this paper, we propose a new contrastive divergence loss to address the non-IID problem in autonomous driving by reducing the impact of divergence factors from transmitted models during the local learning process of each silo. We also analyze the effects of contrastive divergence in various autonomous driving scenarios, under multiple network infrastructures, and with different centralized/distributed learning schemes. Our intensive experiments on three datasets demonstrate that our proposed contrastive divergence loss significantly improves the performance over current state-of-the-art approaches.*
 
@@ -93,11 +93,13 @@ bash test_udacity_gaia.sh
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 
 ```
-@inproceedings{do2023addressing,
-  title={Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss},
-  author={Do, Tuong and Nguyen, Binh X and Tjiputra, Hien Nguyen1 Erman and Tran, Quang D and Nguyen, Anh},
-  booktitle={ICRA},
-  year={2024}
+@inproceedings{do2024reducing,
+  title={Reducing Non-IID Effects in Federated Autonomous Driving with Contrastive Divergence Loss},
+  author={Do, Tuong and Nguyen, Binh X and Tran, Quang D and Nguyen, Hien and Tjiputra, Erman and Chiu, Te-Chuan and Nguyen, Anh},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={2190--2196},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
