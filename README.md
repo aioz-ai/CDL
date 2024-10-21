@@ -93,11 +93,11 @@ bash test_udacity_gaia.sh
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 
 ```
-@article{do2023addressing,
+@inproceedings{do2023addressing,
   title={Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss},
   author={Do, Tuong and Nguyen, Binh X and Tjiputra, Hien Nguyen1 Erman and Tran, Quang D and Nguyen, Anh},
-  journal={CoRR},
-  year={2023}
+  booktitle={ICRA},
+  year={2024}
 }
 ```
 
