@@ -93,7 +93,21 @@ bash test_udacity_gaia.sh
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 
 ```
-coming soon!
+@article{do2023addressing,
+  title={Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss},
+  author={Do, Tuong and Nguyen, Binh X and Tjiputra, Hien Nguyen1 Erman and Tran, Quang D and Nguyen, Anh},
+  journal={CoRR},
+  year={2023}
+}
+```
+
+```
+@inproceedings{nguyen2022_DFL,
+  title={Deep Federated Learning for Autonomous Driving},
+  author={Nguyen, Anh and Do, Tuong and Tran, Minh and Nguyen, Binh X and Duong, Chien and Phan, Tu and Tjiputra, Erman and Tran, Quang D},
+  booktitle={33rd IEEE Intelligent Vehicles Symposium},
+  year={2022}
+}
 ```
 
 ### License
