@@ -5,7 +5,7 @@
 ![Fig-1](misc/CDL_FADNet.png)
 *<center>**Figure 1**: The Siamese setup when our CDL is applied for training federated autonomous driving mode.</center>*
 
-This repository is the implementation of **Addressing Non-IID Problem in Federated Autonomous Driving with Contrastive Divergence Loss**. We benchmark our method on three public datasets: Udacity+ (A non-IID version of [Udacity](https://www.udacity.com/self-driving-car)), Carla, and Gazebo.
+This repository is the implementation of **Reducing Non-IID Effects in Federated Autonomous Driving with Contrastive Divergence Loss**. We benchmark our method on three public datasets: Udacity+ (A non-IID version of [Udacity](https://www.udacity.com/self-driving-car)), Carla, and Gazebo.
 
 For the detail, please refer to [link](https://arxiv.org/pdf/2303.06305.pdf).
 
